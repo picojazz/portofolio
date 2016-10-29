@@ -7,8 +7,30 @@
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(-225deg, rgba(127, 140, 141,0.3) 0%, rgba(44, 62, 80,0.4) 70%), url('http://imgview.info/download/20150710/city-street-light-car-hd-wallpaper-1920x1200.jpg');
-}.me{
+}.banner-content{
+	margin-top:45px;
+	color:white;
+}
+.me{
 	width: 300px;
 	height: 300px;
 	border-radius: 150px;
+}section{
+	width: 100%;
+
+}.titre{
+  //padding-top: 5px;
+    //padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #1e1e1e;
+    //background-color: #e7e5e4;
+    font-family: 'Gabriela', serif;
+    font-size: 50px;
+    letter-spacing: .10em;
+    //text-align: center;
+    text-shadow:
+        1px -1px 0 #767676,
+        -1px 2px 1px #767474;
+        
 }
