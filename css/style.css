@@ -87,7 +87,12 @@
 	-webkit-background-size: cover;
 	background-size: cover;
 
-
-
 	
+}.social:hover{
+	-ms-transform: scale(1.1, 1.1); /* IE 9 */
+    -webkit-transform: scale(1.1, 1.1); /* Safari */
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
+}.social{
+	transition: 0.5s;
 }
