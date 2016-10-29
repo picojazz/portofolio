@@ -14,9 +14,10 @@
 .me{
 	width: 300px;
 	height: 300px;
-	border-radius: 150px;
+	border-radius: 50px;
 }section{
 	width: 100%;
+	margin:0px;
 
 }.titre{
   //padding-top: 5px;
@@ -33,4 +34,60 @@
         1px -1px 0 #767676,
         -1px 2px 1px #767474;
         
+}.about{
+	margin :0px;
+}
+.portofolio{
+	width: 100%;
+	height: 100vh;
+	background-size: cover !important;
+	 
+	background-image: linear-gradient(-225deg, rgba(127, 140, 141,0.2) 0%, rgba(44, 62, 80,0.7) 70%), url('http://puu.sh/6cMGs.jpg');
+}.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  //background-image: url('https://unsplash.it/1000/175/');
+  border-radius:10px; 
+  transition: 0.5s;
+}.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 13px;
+  }.card-category {
+  position: absolute;
+  left: 28%;
+  width: 50%;
+  height: 20%;
+  background-color: #3498db;
+  //border-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+
+  
+  font-size: 18px;
+  text-transform: uppercase;
+}.card:hover{
+	-ms-transform: scale(1.1, 1.1); /* IE 9 */
+    -webkit-transform: scale(1.1, 1.1); /* Safari */
+    transform: scale(1.1, 1.1);
+    transition: 0.5s ;
+}.contact{
+	margin:0px;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+
+
+	
 }
