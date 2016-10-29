@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(-225deg, rgba(127, 140, 141,0.3) 0%, rgba(44, 62, 80,0.4) 70%), url('http://imgview.info/download/20150710/city-street-light-car-hd-wallpaper-1920x1200.jpg');
+  background-image: linear-gradient(-225deg, rgba(127, 140, 141,0.3) 0%, rgba(52, 152, 219,0.2) 70%), url('http://imgview.info/download/20150710/city-street-light-car-hd-wallpaper-1920x1200.jpg');
 }.banner-content{
 	margin-top:45px;
 	color:white;
@@ -42,7 +42,7 @@
 	height: 100vh;
 	background-size: cover !important;
 	 
-	background-image: linear-gradient(-225deg, rgba(127, 140, 141,0.2) 0%, rgba(44, 62, 80,0.7) 70%), url('http://puu.sh/6cMGs.jpg');
+	background-image: linear-gradient(-225deg, rgba(127, 140, 141,0.2) 0%, rgba(52, 152, 219,0.3) 70%), url('http://puu.sh/6cMGs.jpg');
 }.card {
   height: 175px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
@@ -95,4 +95,25 @@
     transition: 0.5s;
 }.social{
 	transition: 0.5s;
+}.menu{
+	
+	background-color: #3498db !important ;
+	
+	
+}.navbar-right{
+	margin-right: 5% !important;
+}.collapse li a{
+	color:white !important;
+	font-size: 25px;
+	font-family: monospace ;
+	font-weight: bold;
+}.collapse li a:hover{
+	color:rgba(52, 152, 219,1) !important;
+}.header-title{
+	color:white !important;
+	font-family: monospace ;
+	font-weight: bold;
+	font-size: 25px;
+}.collapse li a:focus{
+	color:rgba(52, 152, 219,1) !important;
 }
